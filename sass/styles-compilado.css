@@ -1,0 +1,37 @@
+#calculator {
+  width: 280px;
+  color: #FFF;
+  /*end display*/ }
+  #calculator .display {
+    background-color: #73DAEB;
+    text-align: right;
+    min-height: 66px; }
+    #calculator .display #operation {
+      padding: 20px 20px 0;
+      font-size: 2.5em;
+      min-height: 66px; }
+    #calculator .display #equal {
+      padding-top: 30px;
+      font-size: 2.5em; }
+    #calculator .display #result {
+      font-size: 3.5em; }
+    #calculator .display #result, #calculator .display #equals {
+      padding: 20px; }
+  #calculator #numbers button {
+    background: #4C4C4C; }
+  #calculator #buttons button {
+    font-size: 1.25em;
+    width: 70px;
+    height: 70px;
+    padding: 6px 12px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #fff;
+    float: left;
+    transition: background-color 2s; }
+  #calculator button:focus {
+    outline: 0; }
+
+/*# sourceMappingURL=styles-compilado.css.map */

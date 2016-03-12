@@ -1,0 +1,68 @@
+#calculator {
+    width: 280px;
+    color: #FFF;
+}
+
+.display {
+    background-color: #73DAEB;
+    text-align: right;
+    min-height: 66px;
+}
+
+#operation {
+    padding: 20px 20px 0;
+    font-size: 2.5em;
+    min-height: 66px;
+}
+
+#equal {
+    padding-top: 30px;
+    font-size: 2.5em;
+}
+
+#result {
+    font-size: 3.5em;
+}
+
+#result,
+#equals {
+    padding: 20px;
+}
+
+#numbers button {
+    background: #4C4C4C;
+}
+
+#numbers {}
+
+#buttons button {
+    font-size: 1.25em;
+    width: 70px;
+    height: 70px;
+    padding: 6px 12px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #fff;
+    float: left;
+    transition: background-color 2s;
+}
+
+/*para sacar el borde azul al hacer click al boton*/
+button:focus {
+    outline: 0
+}
+
+#buttons button:hover {
+    background-color: green;
+}
+
+#operators button {
+    background: #666666;
+    height: 56px;
+}
+
+#operators button:hover {
+    background-color: red;
+}
